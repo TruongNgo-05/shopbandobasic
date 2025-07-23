@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Quần Áo</title>
+    <link rel="stylesheet" href="css/shopquanao.css">
+</head>
+<body>
+    <header>
+        <h1>NQT.JK_Đồ Nam</h1>
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Tìm kiếm sản phẩm..." onkeyup="searchProducts()">
+            <button onclick="searchProducts()">🔍</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showCategory('all')">Tất Cả</a></li>
+            <li><a href="#" onclick="showCategory('áo')">Áo</a></li>
+            <li><a href="#" onclick="showCategory('quần')">Quần</a></li>
+            <li><a href="#" onclick="showCategory('giày')">Giày</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Danh Sách Sản Phẩm</h2>
+        <div class="sanpham">
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/aothun1.jpg" alt="Áo Thun">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Áo Thun Nam</b></p>
+                    <p>Chất liệu: Cotton</p>
+                    <p>Giá: 250.000 VND</p>
+                    <div class="overlay">
+                        <p>Áo thun nam thoải mái, phong cách năng động.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan1.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean </b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 400.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+              <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/aothun2.jpg" alt="Áo Thun">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Áo Thun</b></p>
+                    <p>Chất liệu: Cotton</p>
+                    <p>Giá: 450.000 VND</p>
+                    <div class="overlay">
+                        <p>Áo thun nam thoải mái, phong cách năng động.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan2.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean</b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 600.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+              <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/aothun3.jpg" alt="Áo Thun">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Áo Thun</b></p>
+                    <p>Chất liệu: Cotton</p>
+                    <p>Giá: 150.000 VND</p>
+                    <div class="overlay">
+                        <p>Áo thun nam thoải mái, phong cách năng động.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan3.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean</b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 40.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+              <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/aothun4.jpg" alt="Áo Thun">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Áo Thun Nam</b></p>
+                    <p>Chất liệu: Cotton</p>
+                    <p>Giá: 150.000 VND</p>
+                    <div class="overlay">
+                        <p>Áo thun nam thoải mái, phong cách năng động.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan4.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean </b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 300.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>  <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/aothun5.jpg" alt="Áo Thun">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Áo Thun </b></p>
+                    <p>Chất liệu: Cotton</p>
+                    <p>Giá: 700.000 VND</p>
+                    <div class="overlay">
+                        <p>Áo thun nam thoải mái, phong cách năng động.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan5.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean </b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 900.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+             <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/quan1.jpg" alt="Quần Jean">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Quần Jean </b></p>
+                    <p>Chất liệu: Denim</p>
+                    <p>Giá: 400.000 VND</p>
+                    <div class="overlay">
+                        <p>Quần jean nam thời trang, dễ phối đồ.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+             <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/giay1.jpg" alt="Giày Sneaker">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Giày Sneaker</b></p>
+                    <p>Chất liệu: Da tổng hợp</p>
+                    <p>Giá: 700.000 VND</p>
+                    <div class="overlay">
+                        <p>Giày sneaker trẻ trung, êm ái khi di chuyển.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+             <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/giay2.jpg" alt="Giày Sneaker">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Giày Sneaker</b></p>
+                    <p>Chất liệu: Da tổng hợp</p>
+                    <p>Giá: 400.000 VND</p>
+                    <div class="overlay">
+                        <p>Giày sneaker trẻ trung, êm ái khi di chuyển.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+             <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/giay3.jpg" alt="Giày Sneaker">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Giày Sneaker</b></p>
+                    <p>Chất liệu: Da tổng hợp</p>
+                    <p>Giá: 300.000 VND</p>
+                    <div class="overlay">
+                        <p>Giày sneaker trẻ trung, êm ái khi di chuyển.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+             <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/giay4.jpg" alt="Giày Sneaker">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Giày Sneaker</b></p>
+                    <p>Chất liệu: Da tổng hợp</p>
+                    <p>Giá: 200.000 VND</p>
+                    <div class="overlay">
+                        <p>Giày sneaker trẻ trung, êm ái khi di chuyển.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sanphamcon">
+                <div class="anhsanphamcon1">
+                    <img src="img/giay5.jpg" alt="Giày Sneaker">
+                </div>
+                <div class="thongtinanhcon1">
+                    <p><b>Giày Sneaker</b></p>
+                    <p>Chất liệu: Da tổng hợp</p>
+                    <p>Giá: 100.000 VND</p>
+                    <div class="overlay">
+                        <p>Giày sneaker trẻ trung, êm ái khi di chuyển.</p>
+                        <button>Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <script>
+        function searchProducts() {
+            let input = document.getElementById("search").value.toLowerCase();
+            let products = document.getElementsByClassName("sanphamcon");
+
+            for (let product of products) {
+                let productNameElement = product.querySelector(".thongtinanhcon1 p b");
+                if (productNameElement) {
+                    let productName = productNameElement.innerText.toLowerCase();
+                    if (productName.includes(input)) {
+                        product.style.display = "";
+                    } else {
+                        product.style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+        <script>
+          function showCategory(category) {
+        let products = document.getElementsByClassName("sanphamcon");
+
+        for (let product of products) {
+            let productNameElement = product.querySelector(".thongtinanhcon1 p b");
+            if (productNameElement) {
+                let productName = productNameElement.innerText.toLowerCase();
+                
+                // Hiển thị tất cả sản phẩm nếu chọn "all"
+                if (category === 'all') {
+                    product.style.display = "";
+                } 
+                // Hiển thị sản phẩm chứa từ khóa "áo", "quần" hoặc "giày"
+                else if (productName.includes(category)) {
+                    product.style.display = "";
+                } 
+                // Ẩn các sản phẩm không thuộc danh mục
+                else {
+                    product.style.display = "none";
+                }
+            }
+        }
+    }
+    </script>
+</body>
+</html>
